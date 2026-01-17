@@ -15,10 +15,10 @@ class SecurityAgentFocus < Formula
   def caveats
     <<~EOS
       To enable auto-focus, register the LaunchDaemon:
-        sudo security-agent-focus register
+        security-agent-focus register
 
       To disable:
-        sudo security-agent-focus unregister
+        security-agent-focus unregister
 
       To check status:
         security-agent-focus status
