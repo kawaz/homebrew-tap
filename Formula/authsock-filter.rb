@@ -1,28 +1,28 @@
 class AuthsockFilter < Formula
   desc "SSH agent proxy with filtering and logging"
   homepage "https://github.com/kawaz/authsock-filter"
-  version "0.1.39"
+  version "0.1.40"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/kawaz/authsock-filter/releases/download/v#{version}/authsock-filter-aarch64-apple-darwin.tar.gz"
-      sha256 "1a63e2282333f0c455a3d24ef29fccbbf50f415295071d935dc3ca01ee13162d"
+      sha256 "b0ba78ca87eb6014d7ae58d6ef20718b92d3d61a42c3472b13bcd5d41d6dc95c"
     end
     on_intel do
       url "https://github.com/kawaz/authsock-filter/releases/download/v#{version}/authsock-filter-x86_64-apple-darwin.tar.gz"
-      sha256 "f9f6d864c25d9d03e644f364ce03b87b67bde0c524521060e6f8a2598d3c183d"
+      sha256 "d70fd184c91e3f13df882630b94955678ad18bfc96ffb1bd793ef82eb82a6d13"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/kawaz/authsock-filter/releases/download/v#{version}/authsock-filter-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0de40ac698991b1ba902c13e634c0d044ed14d3e02d374846ae72a873d012fa4"
+      sha256 "185d7e5914dc089ce7cf7c900f5350559a92586db7950043125217e0966081cc"
     end
     on_intel do
       url "https://github.com/kawaz/authsock-filter/releases/download/v#{version}/authsock-filter-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4d26a7c181da2d5e5ca5fa49ab926295fc4ca5a563fd0039e0dbc515a0648dbb"
+      sha256 "0478f6d98194a0c92d457fb82573b33128899bfc118cf7fd0704094876dcf117"
     end
   end
 
