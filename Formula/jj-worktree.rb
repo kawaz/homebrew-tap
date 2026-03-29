@@ -1,28 +1,28 @@
 class JjWorktree < Formula
   desc "A git shim that translates worktree operations to jj workspace commands"
   homepage "https://github.com/kawaz/jj-worktree"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/kawaz/jj-worktree/releases/download/v#{version}/jj-worktree-aarch64-apple-darwin.tar.gz"
-      sha256 "029c5783973ea52839a92a6ae6e969c3aecd81377629aa8062c5537b6a3aba65"
+      sha256 "b7edc9c6d64e7d0aad245012acf3a54459cbe7a48759c33b79027d5c63763466"
     end
     on_intel do
       url "https://github.com/kawaz/jj-worktree/releases/download/v#{version}/jj-worktree-x86_64-apple-darwin.tar.gz"
-      sha256 "c3c47fbff35af1770e04e9cbaad301f45f387e3bd194a7d6dc3444af03865f2d"
+      sha256 "63fb4bd5e6004caf097d11dd82689058b70d535bb47a730867141b8b97260ba4"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/kawaz/jj-worktree/releases/download/v#{version}/jj-worktree-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5b0a4561f3b00e76fe47c3940872e314c2a1d66c931bee9188717e09e229f874"
+      sha256 "f61187d9b4eec7f1e7554bed9985b569c1f8d5de38cf23b7f5907001c72cdd1e"
     end
     on_intel do
       url "https://github.com/kawaz/jj-worktree/releases/download/v#{version}/jj-worktree-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5a22555d726c22feb0a1f77ed7cfadbd43fdd16613dd33dfe66a84a0d67a787d"
+      sha256 "e53888597cfb646a8da54575148c792a1741c9ece75d69e8a38a3b8136462e03"
     end
   end
 
