@@ -1,7 +1,7 @@
 class AuthsockWarden < Formula
   desc "SSH agent proxy with key filtering, process-aware access control, and 1Password integration"
   homepage "https://github.com/kawaz/authsock-warden"
-  version "0.1.17"
+  version "0.1.18"
   license "MIT"
 
   on_macos do
@@ -11,11 +11,11 @@ class AuthsockWarden < Formula
   on_linux do
     on_arm do
       url "https://github.com/kawaz/authsock-warden/releases/download/v#{version}/authsock-warden-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f4ccd315536643eacfa10fb10bf0c7fd5986b19f6b83d54de06a96a7983c208f"
+      sha256 "fa09fc7df59ada1b2ac05bbe25824d83f0493a0d65524f07a01fba0c7b9f51c7"
     end
     on_intel do
       url "https://github.com/kawaz/authsock-warden/releases/download/v#{version}/authsock-warden-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6bf923d52fa4826854e9020ed500a23e92442a728f1cc6a05048510ecd8d0a06"
+      sha256 "45a955626c2bc8b0605b25b43c5e4bcda72e5ef73240f9961f80c2f8ffb60899"
     end
   end
 
