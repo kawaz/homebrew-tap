@@ -1,12 +1,12 @@
 cask "authsock-warden" do
-  version "0.1.19"
+  version "0.1.20"
 
   on_arm do
-    sha256 "4726022400c1064d6fc6b507f48c929dd307eacdfa41ba8b7eb66f4b5e29794c"
+    sha256 "5fa9803b3f0b324af5142b637e40d254fb0a68477e7c305b3d25235da8566895"
     url "https://github.com/kawaz/authsock-warden/releases/download/v#{version}/authsock-warden-aarch64-apple-darwin.tar.gz"
   end
   on_intel do
-    sha256 "a7cc43760c372a37dd0dbe2d3025ae32d5c438778ee32567478c6537d4a3b82c"
+    sha256 "b9645e3c9925c1791c56e521c44a86d22642226ca5ab854406f2830a00f9b212"
     url "https://github.com/kawaz/authsock-warden/releases/download/v#{version}/authsock-warden-x86_64-apple-darwin.tar.gz"
   end
 
