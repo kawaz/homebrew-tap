@@ -1,28 +1,28 @@
 class StableWhich < Formula
   desc "Resolve the stable PATH entry for a binary, verified by canonical path identity"
   homepage "https://github.com/kawaz/stable-which"
-  version "0.1.1"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/kawaz/stable-which/releases/download/v#{version}/stable-which-aarch64-apple-darwin.tar.gz"
-      sha256 "002820750fd7291b531943db54aec2e9628b8acd15ae271fee24cc7698d160f2"
+      sha256 "08656a1e364699ace1eea73ea97a56f911b708f8f87f7c3e3a0af724ef7b8fe0"
     end
     on_intel do
       url "https://github.com/kawaz/stable-which/releases/download/v#{version}/stable-which-x86_64-apple-darwin.tar.gz"
-      sha256 "5283784d7a618b6fa14c25c830e86ae5b42891eb5ca44f76a1dd0a697e114a53"
+      sha256 "891145892df21c6956b56d7690e4271c2519c28756a13dd6d145350628c445c1"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/kawaz/stable-which/releases/download/v#{version}/stable-which-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0a29b6249b1e73e5bb043631793fe2204c92a5cf67c1bcc5f61116d400887f29"
+      sha256 "3593ea1a2dfed808edc076e89814503cd4385e7c11c41db58c4e6456808f2a9e"
     end
     on_intel do
       url "https://github.com/kawaz/stable-which/releases/download/v#{version}/stable-which-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "fb112e4ad68ce8cea0f1d42c14c165101d3eee0bff30b86bb18154fc4a37bc4a"
+      sha256 "5e1a32ad428a1ded085203f5a51f4d446571aaeba7d1e7bc2d0d59691f34770a"
     end
   end
 
