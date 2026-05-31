@@ -1,28 +1,28 @@
 class BumpSemver < Formula
   desc "Focused semver bump CLI: detect by basename and operate on Cargo.toml / *.json / VERSION"
   homepage "https://github.com/kawaz/bump-semver"
-  version "0.27.0"
+  version "0.27.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/kawaz/bump-semver/releases/download/v#{version}/bump-semver-darwin-arm64"
-      sha256 "c01653853317999ec113cdadedaf0d96b0957d55af917107c94c7b9a7c790402"
+      sha256 "4133b75e1f6718a84225c8b79a300354a0ad56c7f60439dab5f032079ac0d8b6"
     end
     on_intel do
       url "https://github.com/kawaz/bump-semver/releases/download/v#{version}/bump-semver-darwin-amd64"
-      sha256 "976e6a75c4c7cab4d3de995b4ebf58259655ec7d6876a762ef7296bce421b4da"
+      sha256 "9a200da71a96b67dbfca48b36cd10d91692462482cba618a38111e6034bb122b"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/kawaz/bump-semver/releases/download/v#{version}/bump-semver-linux-arm64"
-      sha256 "0514601a4ea53c1c0833a86ae01dfa29585cc6a25c1ee9f6ced0caf2f8484862"
+      sha256 "b08b6cf91e4024aa2879a36350230aaa07d51a41178c74d7441068b9dae07de6"
     end
     on_intel do
       url "https://github.com/kawaz/bump-semver/releases/download/v#{version}/bump-semver-linux-amd64"
-      sha256 "dd34ea78defa9fdf8a75f76d0f195588bf5deab57f95b5d55c01e4c92bf0ba7b"
+      sha256 "4002faf4c3b6bd3245e231f95a878b703f79181bfec5d67b0e92a0164390de79"
     end
   end
 
