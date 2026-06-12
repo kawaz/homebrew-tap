@@ -1,12 +1,12 @@
 cask "cache-warden" do
-  version "0.18.0"
+  version "0.18.1"
 
   on_arm do
-    sha256 "40222443f6cf99b504a28ac83a3b1de13c08ad59ccce250a22e397173fab4e36"
+    sha256 "93198a1724e37781a1519b577e12d51b09e56f2ec5ad52b8eff4c705736fb9e2"
     url "https://github.com/kawaz/cache-warden/releases/download/v#{version}/cache-warden-aarch64-apple-darwin.tar.gz"
   end
   on_intel do
-    sha256 "c6bf2009f8eafb3c41789a2e5e7c50c3227f34f3c2ac0b8c8e37829d7b8e54e8"
+    sha256 "544faf7bb18efddab51500a8bb18d917f3b95d191ca375e64e654294346ecae5"
     url "https://github.com/kawaz/cache-warden/releases/download/v#{version}/cache-warden-x86_64-apple-darwin.tar.gz"
   end
 
