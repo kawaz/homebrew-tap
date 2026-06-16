@@ -1,28 +1,28 @@
 class Hyoui < Formula
   desc "Drive claude, REPLs, and TUIs from the outside via CLI - a transparent PTY wrapper with no prefix keys"
   homepage "https://github.com/kawaz/hyoui"
-  version "0.7.1"
+  version "0.7.2"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/kawaz/hyoui/releases/download/v#{version}/hyoui-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "a7e65e1b943655c4c76232336701c9b17a692998a8983a2cf6ef9d764503c2fa"
+      sha256 "e0d16ba66f2325a335937349a226fc85b16e3e87d2560f178e06dfe7305e7b96"
     end
     on_intel do
       url "https://github.com/kawaz/hyoui/releases/download/v#{version}/hyoui-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "24d799b1c56a9adb6a0324d4c8156f394359e2e7349c57668e541affadd015e4"
+      sha256 "7fd835528b0e16a3a81ed89fe5629f03059522db8d49f080f5e6f2cd2c77e8bd"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/kawaz/hyoui/releases/download/v#{version}/hyoui-#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "364b4a3e9cb6a999673f55419e769df149d95cb0f7719496e7ffa1c80ab1520e"
+      sha256 "fee4466affba5a76f93b2b44a2d9a2c8def3e7324a8141f7ec405bc429aa5e2f"
     end
     on_intel do
       url "https://github.com/kawaz/hyoui/releases/download/v#{version}/hyoui-#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "aee6ac825d863981738933b6802cf672c92516c615cbd8aaca529b0db13b4c94"
+      sha256 "7e523c6aec0c651d1d935a336f3b2839d3e221d928baad03965bfe0740488437"
     end
   end
 
