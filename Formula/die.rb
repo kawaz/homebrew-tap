@@ -1,7 +1,7 @@
 class Die < Formula
   desc "Tiny CLI: print ARGS (or stdin) to stderr and exit 1"
   homepage "https://github.com/kawaz/die"
-  version "0.0.2"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
