@@ -1,28 +1,28 @@
 class Die < Formula
   desc "Tiny CLI: print ARGS (or stdin) to stderr and exit 1"
   homepage "https://github.com/kawaz/die"
-  version "0.3.1"
+  version "0.3.2"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/kawaz/die/releases/download/v#{version}/die-darwin-arm64"
-      sha256 "ff80626b844cad76a84279faa36b37e39edcc52dceda92bd9e013d57095853ea"
+      sha256 "fade5b749c18085d03d66b1063252a678345a647b64487329539039f25275cbc"
     end
     on_intel do
       url "https://github.com/kawaz/die/releases/download/v#{version}/die-darwin-amd64"
-      sha256 "cf2d9c951d304351e39588154ae119b6c844d7b947f1c8c97bd3eb5e7d2d5026"
+      sha256 "eb63e426aaeb60f30f0536ef9d12f3e9d23471e34c798003d8df6e2a5ec79fae"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/kawaz/die/releases/download/v#{version}/die-linux-arm64"
-      sha256 "49c1c9c78aa0d0e55b7ddd6ca7d79de458729b8aa38e3611ac4554cc11449b45"
+      sha256 "90fbff9e204aa5066d27bdea59054a7e8a0d6555be5aa604e758528d8caa2763"
     end
     on_intel do
       url "https://github.com/kawaz/die/releases/download/v#{version}/die-linux-amd64"
-      sha256 "f0c2d2f0f5e55b84497879042dc19a5e16615d4361e5f91aa29e45f37ffac03a"
+      sha256 "50a1f34b01e02cdbeee527e748b39edc6ebd84e19b641893cc739a247ae0fea7"
     end
   end
 
