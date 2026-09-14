@@ -1,28 +1,28 @@
 class LlmGateway < Formula
   desc "A thin LLM proxy that keeps authentication out of the client's way"
   homepage "https://github.com/kawaz/llm-gateway"
-  version "0.48.0"
+  version "0.48.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/kawaz/llm-gateway/releases/download/v#{version}/llm-gateway-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "682aed932e24c88db0e32d6a5bbfaf39ae6374589a24c1d9ea7d4b00f6ddd5e8"
+      sha256 "55d7a57a9528c0453b9f4b560c2e92296c6acb7e4b94bd2904d0df009b5b978a"
     end
     on_intel do
       url "https://github.com/kawaz/llm-gateway/releases/download/v#{version}/llm-gateway-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "1e4e3d0ecc66f1127e2b3e66dce43a97ed1682ac921faa3bed12bbc632776478"
+      sha256 "7bf17a13edd3c08e486f61cac641afd6af7ef03d664408f766c52f40e695ae1f"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/kawaz/llm-gateway/releases/download/v#{version}/llm-gateway-#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5f3109c93cd17c096d67d53372f1f9fdb410053fe1e2b1aea35a413ff2fde976"
+      sha256 "69acae6dbacd6963bfb679d23e6b317dc4379f35f41bb3c7fff6bba24925e801"
     end
     on_intel do
       url "https://github.com/kawaz/llm-gateway/releases/download/v#{version}/llm-gateway-#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b00ce4d87e86f6d9c74780ad6a92825133c5a052dd470765e7f574dcb6510705"
+      sha256 "ee4d6f287f5ec8802b2c770d7137168dc4b6ae9ccd36fe2df33155eac755470d"
     end
   end
 
