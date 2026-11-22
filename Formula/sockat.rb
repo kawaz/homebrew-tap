@@ -1,28 +1,28 @@
 class Sockat < Formula
   desc "Print a path to a Unix domain socket that fits the socket address limit"
   homepage "https://github.com/kawaz/sockat-rs"
-  version "0.6.1"
+  version "0.6.2"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/kawaz/sockat-rs/releases/download/v#{version}/sockat-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "d8aa0f85af916ddd794940c3f8fa0a659ffaa07ceb14b7abed935a3a7025e6e3"
+      sha256 "c259540419ea328bdc2cc48ccf8627f7f2a60a73faf86af2869e8731071bc165"
     end
     on_intel do
       url "https://github.com/kawaz/sockat-rs/releases/download/v#{version}/sockat-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "1ea00a767b72b258c212d18fe2914dd58837f970ea1f291ef04f5584bcfa8273"
+      sha256 "18b3a41862253e09946b1bb147868b5b987b7ba5945d893e93967e9b502d1836"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/kawaz/sockat-rs/releases/download/v#{version}/sockat-#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "4cfa0ded27e2a9bccd4d6d8a057c3f996287deaa9f6b28790b113a20a147f1b5"
+      sha256 "65c3fe382f5c36510afdbc59c932ef5fbbf6348a105a4402b220da87289f05a8"
     end
     on_intel do
       url "https://github.com/kawaz/sockat-rs/releases/download/v#{version}/sockat-#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e8089349353ce90c0b76a974aeeec4d9df96df70a550aa813b016d9e515c24bb"
+      sha256 "3a3679ecb7f6a590eda33e5e115c1160330cb2b76bdf29641882501e4b331209"
     end
   end
 
